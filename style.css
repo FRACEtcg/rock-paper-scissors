@@ -46,7 +46,7 @@ header {
 .container {
   column-gap: 3%;
 }
-.text {
+.text, .text2 {
   width: max(60%,300px);
   text-align: center;
   line-height: 1.6;
