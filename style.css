@@ -1,0 +1,71 @@
+:root {
+  --maincolor: #dcd3e2;
+  --darkonlight: #535387;
+  --lightondark: #F7F8F7;
+  --lightaccent: #B9927D;
+  --darkaccent: #8E878F;
+  --textcolor: #060641;
+}
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+}
+body {
+  width: 100%;
+  flex-direction: column;
+}
+body, .container, .container-outer, header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--maincolor);
+}
+.container-outer {
+  flex-direction: column;
+  gap: 2em;
+  font-size: 1.5em;
+  margin-bottom: 130px;
+}
+header {
+  height: 100px;
+  width: 100%;
+  font-size: 4em;
+  font-weight: 900;
+  background-color: #68493B;
+  margin-bottom: 1em;
+  color: var(--lightondark);
+}
+.container {
+  column-gap: 3%;
+}
+.text {
+  width: max(60%,300px);
+  text-align: center;
+  line-height: 1.6;
+  color: var(--textcolor);
+}
+#rock, #paper, #scissors {
+  display: flex;
+  flex-basis: 25%;
+}
+.container i {
+  font-size: min(30vh,25vw);
+  background-color: var(--maincolor);
+  color: var(--darkonlight);
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #68493B;
+  height: 100px;
+  width: 100%;
+  color: var(--lightondark);
+}
