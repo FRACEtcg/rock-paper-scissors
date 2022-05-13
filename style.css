@@ -67,8 +67,6 @@ header {
   align-items: center;
 }
 footer {
-  position: fixed;
-  bottom: 0;
   background-color: #68493B;
   height: 100px;
   width: 100%;
