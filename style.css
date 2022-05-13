@@ -61,6 +61,11 @@ header {
   background-color: var(--maincolor);
   color: var(--darkonlight);
 }
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 footer {
   position: fixed;
   bottom: 0;
